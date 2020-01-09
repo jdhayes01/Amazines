@@ -1,0 +1,24 @@
+?*FOR ATICLES*/
+[
+	{
+		"Title": " ",
+		"Author": " ",
+		"Date": " ",
+		"Categories": " ",
+		"Image": " ",
+		"ImageDescrip": " ",
+		"ArticleText": " ",
+		"CommentCount": " ",
+		"Comments": [
+			{
+				"Commenter": " ",
+				"CommentDate": " ",
+				"CommenterAvatar": " ",
+				"CommentText": " ",
+
+			}
+		]
+
+	}
+
+]

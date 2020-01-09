@@ -28,100 +28,93 @@
       .ampstart-social-box>amp-social-share{background-color:#000}
       .ampstart-icon{fill:#003f93}
 
-      /** Blog
- **************************************************************** **/
-.blog-post-item {
-	display:block;
-	margin-bottom:2rem;
-	padding-bottom:60px;
-	border-bottom:#eee 1px solid;
-	position:relative;
-}
-	section.dark .blog-post-item {
-		border-bottom:#444 1px solid;
-	}
+        .blog-post-item {
+        	display:block;
+        	margin-bottom:2rem;
+        	padding-bottom:60px;
+        	border-bottom:#eee 1px solid;
+        	position:relative;
+        }
+        	section.dark .blog-post-item {
+        		border-bottom:#444 1px solid;
+        	}
 
-h1.blog-post-title,
-.blog-post-item h2 {
-	letter-spacing:0;
-	/*font-family:'Open Sans',Arial,Helvetica,sans-serif;*/
-	font-size:22px;
-	margin-bottom:10px;
-}
-ul.blog-post-info {
-	display:block;
-	padding-bottom:20px;
-}
-section.dark ul.blog-post-info {
-	border-bottom-color:#444;
-}
-ul.blog-post-info li {
-	margin-right:20px;
-}
-ul.blog-post-info li>a {
-	color:#888;
-}
-ul.blog-post-info li i {
-	color:#888;
-	margin-right:5px;
-}
-ul.blog-post-info li a:after {
-	content:' , ';
-}
-ul.blog-post-info li a:last-child:after {
-	content:'';
-}
+        h1.blog-post-title,
+        .blog-post-item h2 {
+        	letter-spacing:0;
+        	/*font-family:'Open Sans',Arial,Helvetica,sans-serif;*/
+        	font-size:22px;
+        	margin-bottom:10px;
+        }
+        ul.blog-post-info {
+        	display:block;
+        	padding-bottom:20px;
+        }
+        section.dark ul.blog-post-info {
+        	border-bottom-color:#444;
+        }
+        ul.blog-post-info li {
+        	margin-right:20px;
+        }
+        ul.blog-post-info li>a {
+        	color:#888;
+        }
+        ul.blog-post-info li i {
+        	color:#888;
+        	margin-right:5px;
+        }
+        ul.blog-post-info li a:after {
+        	content:' , ';
+        }
+        ul.blog-post-info li a:last-child:after {
+        	content:'';
+        }
 
-/* blog misc */
-.blog-post-item .flexslider {
-	margin-bottom:20px;
-}
-h1.blog-post-title {
-	font-size:24px;
-	margin-bottom:0;
-}
+        /* blog misc */
+        .blog-post-item .flexslider {
+        	margin-bottom:20px;
+        }
+        h1.blog-post-title {
+        	font-size:24px;
+        	margin-bottom:0;
+        }
 
 
+        	.blog-post-item .blog-item-small-image {
+        		width:300px;
+        		float:left;
+        	}
+        	.blog-post-item .blog-item-small-image + .blog-item-small-content {
+        		padding-left:330px;
+        	}
+        		.blog-post-item.blog-post-item-inverse .blog-item-small-image {
+        			width:300px;
+        			float:right;
+        		}
+        		.blog-post-item.blog-post-item-inverse .blog-item-small-image + .blog-item-small-content {
+        			padding-left:0;
+        			padding-right:330px;
+        		}
 
+        		@media only screen and (max-width: 768px) {
+        		.blog-post-item .blog-item-small-image,
+        		.blog-post-item.blog-post-item-inverse .blog-item-small-image,
+        		.blog-both-sidebar .blog-post-item .blog-item-small-image,
+        		.blog-both-sidebar .blog-post-item .blog-item-small-image + .blog-item-small-content {
+        			width:87%;
+        			display:block;
+        			float:none;
+        		}
 
+        		.mobile-padding-right{
+        			padding-right: 10px;
+        		}
 
-	/** Blog Small Image
-	 ****************** **/
-	.blog-post-item .blog-item-small-image {
-		width:300px;
-		float:left;
-	}
-	.blog-post-item .blog-item-small-image + .blog-item-small-content {
-		padding-left:330px;
-	}
-		.blog-post-item.blog-post-item-inverse .blog-item-small-image {
-			width:300px;
-			float:right;
-		}
-		.blog-post-item.blog-post-item-inverse .blog-item-small-image + .blog-item-small-content {
-			padding-left:0;
-			padding-right:330px;
-		}
+        		.mobile-padding-left{
+        			padding-left: 10px;
+        		}
 
-		@media only screen and (max-width: 768px) {
-		.blog-post-item .blog-item-small-image,
-		.blog-post-item.blog-post-item-inverse .blog-item-small-image,
-		.blog-both-sidebar .blog-post-item .blog-item-small-image,
-		.blog-both-sidebar .blog-post-item .blog-item-small-image + .blog-item-small-content {
-			width:87%;
-			display:block;
-			float:none;
-		}
-
-		.mobile-padding-right{
-			padding-right: 10px;
-		}
-
-		.mobile-padding-left{
-			padding-left: 10px;
-		}
-
-	}
+        	}
 
 
   </style>
