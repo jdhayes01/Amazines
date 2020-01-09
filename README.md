@@ -1,2 +1,2 @@
 # Amazines
- Amazines Redesign
+ Amazines front end redesign using Google AMP.
